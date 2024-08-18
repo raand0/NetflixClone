@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+#SignIn{
+    font-family:sans-serif;
+    font-size: medium;
+    color: white;
+    background-color: rgb(214, 0, 0);
+    padding: 9px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+#Languages{
+    font-family:sans-serif;
+    font-size: medium;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.73);
+    padding: 8px 14px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 4px;
+    margin-right: 20px;
+}
+#Languages option{
+    background-color: white;
+    color: black;
+    font-family:sans-serif;
+    font-size: medium;
+}
+#mainTexts{
+    text-align: center;
+    color: white;
+    margin-top: 230px;
+    margin-bottom: 15px;
+}
+#mainTexts h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:300%;
+    font-weight:bolder;
+    margin-bottom: 23px;
+}
+#mainTexts h2{
+    font-family:sans-serif;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+#mainTexts h3{
+    font-family:sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+#getStartedSection{
+    text-align: center;
+}
+#getStartedSection #getStarted{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:150%;
+    color: white;
+    background-color: rgb(214, 0, 0);
+    padding: 13px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
+#getStartedSection #email{
+    font-family:sans-serif;
+    color: white;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.628);
+    padding: 16px 10px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 4px;
+    width: 310px;
+}
+#logo{
+    height: 40px;
+    padding: 20px;
+    margin-left: 10px;
+}
+#langSign{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+hr{
+    height: 8px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+}
+#TV{
+    height: 400px;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+#section2{
+    height: 550px;
+}
+#sec2Texts{
+    color: white;
+}
+#sec2Texts h1{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 195px;
+    left: 30px;
+}
+#sec2Texts pre{
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: light;
+    position: relative;
+    top: 220px;
+    left: 32px;
+}
+#section3{
+    height: 550px;
+}
+#eleven{
+    height: 360px;
+    position: relative;
+    bottom:60px;
+    left: 50px;
+}
+#sec3Texts h1{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 180px;
+}
+#sec3Texts pre{
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: light;
+    position: relative;
+    top: 200px;
+
+}
+#sec3Texts {
+    display: inline;
+    position: relative;
+    left: 51%;
+    color: white;
+}
+#section4{
+    height: 550px;
+}
+#Mac{
+    height: 400px;
+    position: relative;
+    left: 50%;
+}
+#sec4Texts{
+    color: white;
+}
+#sec4Texts h1{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 230px;
+    left: 30px;
+}
+#sec4Texts pre{
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: light;
+    position: relative;
+    top: 255px;
+    left: 32px;
+}
+#section5{
+    height: 550px;
+}
+#kids{
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+}
+#sec5Texts{
+    color: white;
+    display: inline;
+    position: relative;
+    left: 51%;
+}
+#sec5Texts h1{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 190px;
+}
+#sec5Texts pre{
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: light;
+    position: relative;
+    top: 210px;
+}
+#Questions h1{
+    color: white;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
